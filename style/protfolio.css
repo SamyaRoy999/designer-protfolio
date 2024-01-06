@@ -1,0 +1,51 @@
+/* nev ber style */
+body {
+    font-family: Open Sans;
+}
+
+nav {     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* primary color */
+.primary_color {
+    color: #FD6E0A;
+}
+
+h3 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/*nab batton */
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 15px 35px;
+}
